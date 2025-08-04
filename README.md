@@ -205,27 +205,10 @@ echo.category_keywords = {
   }
 }
 ```
-
-## 🤝 Contributing
-
-We welcome contributions! Echo grows stronger with community input.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙋‍♂️ Support
-
-- **Documentation**: Check out our [Wiki](wiki) for detailed guides
-- **Issues**: Report bugs or request features via [GitHub Issues](issues)
-- **Discussions**: Join the community in [GitHub Discussions](discussions)
-- **Email**: Contact us at echo-support@yourdomain.com
 
 ## 🔮 Roadmap
 
@@ -246,9 +229,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Ready to let Echo listen to your users?** ⭐ Star this repo and start improving your customer journey today!
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/echo-agent.svg?style=social&label=Star)](https://github.com/yourusername/echo-agent)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/echo-agent.svg?style=social&label=Fork)](https://github.com/yourusername/echo-agent/fork)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/echo-agent.svg)](https://github.com/yourusername/echo-agent/issues)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
