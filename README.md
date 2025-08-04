@@ -15,27 +15,6 @@ Echo is an intelligent AI agent designed to continuously monitor customer feedba
 - **Generates Insights**: Provides prioritized, actionable recommendations based on data analysis
 - **Tracks User Journeys**: Monitors individual user sentiment evolution over time
 
-## 🚀 Quick Start
-
-```python
-from echo_agent import Echo
-
-# Initialize Echo
-echo = Echo()
-
-# Start listening to feedback
-echo.listen("The new interface is confusing", "review", "user_123", rating=2.0)
-echo.listen("Love the performance improvements!", "support", "user_456", rating=5.0)
-
-# Get actionable insights
-insights = echo.generate_insights()
-for insight in insights:
-    print(f"{insight.priority}: {insight.description}")
-
-# Analyze trends
-trends = echo.observe_trends(days=30)
-print(f"Processed {trends['total_feedback']} feedback entries")
-```
 
 ## 📊 Key Features
 
@@ -62,26 +41,7 @@ print(f"Processed {trends['total_feedback']} feedback entries")
 - **Multi-factor analysis**: Sentiment score, ratings, and keyword detection
 - **Escalation support**: Clear categorization for team response
 
-## 🛠 Installation
 
-### Basic Installation
-```bash
-git clone https://github.com/yourusername/echo-agent.git
-cd echo-agent
-pip install -r requirements.txt
-```
-
-### Full Feature Installation
-For advanced sentiment analysis and clustering:
-```bash
-pip install textblob nltk scikit-learn pandas
-python -m textblob.download_corpora
-```
-
-### Docker Setup
-```bash
-docker build -t echo-agent .
-docker run -v $(pwd)/data:/app/data echo-agent
 ```
 
 ## 📈 Usage Examples
@@ -205,9 +165,21 @@ echo.category_keywords = {
   }
 }
 ```
-## 📝 License
+## 📜 License & Commercial Use
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This software is proprietary to **MONTEYcodes** and protected by copyright law.
+
+### 👀 **Viewing & Learning**
+- ✅ View source code for educational purposes
+- ✅ Study implementation patterns and techniques
+- ✅ Use as reference for learning AI agent development
+
+### 🚫 **Restrictions** 
+- ❌ No commercial use without license
+- ❌ No redistribution or modification
+- ❌ No use in production environments
+- ❌ No derivative works
+
 
 
 ## 🔮 Roadmap
